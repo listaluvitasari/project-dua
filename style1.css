@@ -1,0 +1,103 @@
+body {
+	background-image: url;
+}
+.container {
+	width: 900px;
+	box-sizing: border-box;
+	background-color: #eaeaea;
+	margin: auto;
+}
+
+header {
+	background-color: darkgrey;
+	padding: 10px;
+	overflow: auto;
+}
+
+header img {
+	float: left;
+	padding-right: 10px;
+
+}
+header p {
+	font-size: 30px;
+	padding-top: 10px;
+}
+
+nav {
+	background-color: mediumpurple;
+	padding: 10px;
+	top: 0;
+	position: sticky;
+}
+
+nav a {
+	text-decoration: none;
+	padding-right: 5px;
+	color: white;
+}
+
+nav a:hover {
+	background-color: hotpink;
+}
+
+marquee {
+	background-color: mediumpurple;
+	color: white;
+	padding: 10px;
+	margin-top: -5px;
+}
+
+main {
+	width: 600px;
+	float: left;
+
+}
+
+main h2 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+main p {
+	font-size: 15px;
+	text-indent: 30px;
+	text-align: justify;
+	padding:0 10px;
+	line-height: 20px;
+}
+
+aside {
+	width: 300px;
+	float: right;
+}
+
+aside img {
+	width: 60px;
+	height: 80px;
+	padding-left: 115px;
+	padding-top: 35px;
+}
+
+h3, aside p {
+	text-align: center;
+}
+
+aside .sambutan {
+	text-align: justify;
+	text-indent: 30px;
+	font-size: 14px;
+	padding-right: 10px;
+	line-height: 20px;
+}
+
+footer {
+	background-color: mediumpurple;
+	clear: both;
+}
+
+footer p {
+	color : white;
+	text-align: center;
+	padding: 10px;
+}
